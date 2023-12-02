@@ -1,9 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <ui:VisualElement style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; height: auto; max-height: 30px;">
-        <ui:Foldout text="Foldout" />
-        <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" />
-        <ui:DropdownField index="-1" choices="System.Collections.Generic.List`1[System.String]" name="file_menu" />
-        <ui:DropdownField index="-1" choices="System.Collections.Generic.List`1[System.String]" name="edit_menu" />
-        <ui:EnumField type="UnityEngine.TextAlignment, UnityEngine.TextRenderingModule" value="Center" name="EnumField" />
+        <uie:ToolbarMenu display-tooltip-when-elided="true" text="ファイル(&amp;F)" name="ToolbarMenuFile" />
+        <uie:ToolbarMenu display-tooltip-when-elided="true" text="編集(&amp;E)" name="ToolbarMenuEdit" />
     </ui:VisualElement>
 </ui:UXML>
