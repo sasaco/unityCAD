@@ -1,6 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <ui:VisualElement style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; height: auto; max-height: 30px;">
-        <uie:ToolbarMenu display-tooltip-when-elided="true" text="ファイル(&amp;F)" name="ToolbarMenuFile" />
-        <uie:ToolbarMenu display-tooltip-when-elided="true" text="編集(&amp;E)" name="ToolbarMenuEdit" />
-    </ui:VisualElement>
-</ui:UXML>

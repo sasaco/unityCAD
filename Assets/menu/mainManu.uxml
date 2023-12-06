@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" 
+    xmlns:uie="UnityEditor.UIElements" 
+    xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    engine="UnityEngine.UIElements" 
+    editor="UnityEditor.UIElements" 
+    noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" 
+    editor-extension-mode="False">
+
+    <Style src="project://database/Assets/menu/mainManu.uss?fileID=7433441132597879392&amp;guid=abadf71792180684ea77ff5e8440b664&amp;type=3#mainManu" />
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; height: auto; max-height: 30px;">
+        <uie:ToolbarMenu display-tooltip-when-elided="true" text="ファイル(&amp;F)" name="ToolbarMenuFile" />
+        <uie:ToolbarMenu display-tooltip-when-elided="true" text="編集(&amp;E)" name="ToolbarMenuEdit" />
+    </ui:VisualElement>
+</ui:UXML>
