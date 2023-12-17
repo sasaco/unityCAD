@@ -3,3 +3,7 @@
     -unity-font-style: bold;
     color: rgb(68, 138, 255);
 }
+
+.mainMenuDropBoxStyle {
+    background-color: rgb(68, 138, 255);
+}
